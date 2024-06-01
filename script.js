@@ -94,31 +94,31 @@ function generateTeamCards() {
         let backgroundColor;
         switch (member.name.toLowerCase()) {
             case 'beagle':
-                backgroundColor = 'yellow';
+                backgroundColor = '#03BCD3';
                 break;
             case 'poodle':
-                backgroundColor = '#aaaaaa';
+                backgroundColor = '#008394';
                 break;
             case 'dalmatian':
-                backgroundColor = '#0096c7';
+                backgroundColor = '#03BCD3';
                 break;
             case 'german shepherd':
-                backgroundColor = '#87ab69';
+                backgroundColor = '#008394';
                 break;
             case 'golden retriever':
-                backgroundColor = 'gray';
+                backgroundColor = '#ACE9F0';
                 break;
             case 'great dane':
-                backgroundColor = '#d8863b';
+                backgroundColor = '#008394';
                 break;
             case 'siberian husky':
-                backgroundColor = '#9b111e';
+                backgroundColor = '#ECF9FB';
                 break;
             case 'basset hound':
-                backgroundColor = '#dea5a4';
+                backgroundColor = '#03BCD3';
                 break;
             case 'rottweiler':
-                backgroundColor = 'silver';
+                backgroundColor = '#008394';
                 break;
             default:
                 backgroundColor = 'white';

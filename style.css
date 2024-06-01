@@ -5,3 +5,24 @@ body {
     font-style: normal;
     background-image: url("background.jpg");
 }
+
+footer{
+    background-color: rgb(255, 255, 255);
+    color: #0128C8;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2%;
+
+  }
+
+.heehee{
+    font-family: "Pridi", serif;
+  }
+
+  .yurr{
+    font-family: "Pridi", serif;
+    margin: 0;
+  }
+
+  
