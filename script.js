@@ -80,6 +80,20 @@ const teamMembers = [
         temperament: 'Calm',
         coatType: 'Short hair', 
         lifeSpan: '8-10 years', 
+    },
+
+    {
+        name: 'Border Collie',
+        scientificName: 'Canis lupus familiaris',
+        origin: 'Scotland',
+        characteristics: ['Intelligent', 'Agile', 'Instinctive'],
+        temperament: 'Energetic',
+        coatType: 'Double coat', 
+        lifeSpan: '12-15 years', 
+    },
+
+    {
+        name: 'Placeholder',
     }
 ];
 
@@ -90,7 +104,6 @@ function generateTeamCards() {
         const card = document.createElement('div');
         card.classList.add('col-md-4');
 
-        // Style the background color of the cards based on breed
         let backgroundColor;
         switch (member.name.toLowerCase()) {
             case 'beagle':
@@ -119,6 +132,9 @@ function generateTeamCards() {
                 break;
             case 'rottweiler':
                 backgroundColor = '#008394';
+                break;
+                case 'border collie':
+                backgroundColor = '#ACE9F0';
                 break;
             default:
                 backgroundColor = 'white';
