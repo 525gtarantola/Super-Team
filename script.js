@@ -1,6 +1,6 @@
 // Dog breed data
 const teamMembers = [
-    {
+    { 
         name: 'Beagle',
         scientificName: 'Canis lupus familiaris',
         origin: 'United Kingdom',
